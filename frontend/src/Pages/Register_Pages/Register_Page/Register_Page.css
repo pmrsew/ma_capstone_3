@@ -1,76 +1,19 @@
-@media (min-width: 501px){
-    .Register_Page{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 15px;
-        margin: 10px;
-        grid-template-areas: 
-         "Register_page_Banner Register_page_Banner"
-         "Register_page_Welcome_Banner Register_page_Icon"
-         "Register_page_Welcome_Banner Register_page_Buttons"
-         
-        ;
-        position: relative; top: 0; left: 0; bottom: 0; right:0;
-        min-width: 1100px;
-    }
-
-    .Register_page_Icon{
-        grid-area: Register_page_Icon;
-        display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    }
-
-    .Register_page_Banner{
-        margin-top: 0;
-        margin-bottom: -30px;
-    }
-
-}
-
-@media (max-width: 500px){
-    .Register_Page{
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 15px;
-        margin: 10px;
-        grid-template-areas: 
-         "Register_page_Banner"
-         "Register_page_Icon"
-         "Register_page_Welcome_Banner"
-         "Register_page_Buttons"
-        ;
-        position: relative; top: 0; left: 0; bottom: 0; right:0;
-
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-}
-
-.Register_page_Banner{
-    grid-area: Register_page_Banner;
-}
-
-.Register_page_Icon{
-    grid-area: Register_page_Icon;
-    
-}
-
-.Register_page_Welcome_Banner{
-    grid-area: Register_page_Welcome_Banner;
+.Register_Page{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.Register_Banner{
+    background-color: #49B092;
+    border-radius: 20px;
+    padding: 40px;
+    width: 80%;
 }
 
 .Register_page_Buttons{
     grid-area: Register_page_Buttons;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
