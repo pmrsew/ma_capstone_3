@@ -1,17 +1,7 @@
-@media (min-width: 501px){
-  .Brand_Image{
-      background-color: #E0BE76;
-      height: 300px;
-      width: 300px;
-      border-radius: 50%;
-    }
-  }
-
-@media (max-width: 500px){
-.Brand_Image{
-    background-color: #E0BE76;
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-  }
+.Brand_Image {
+  background-color: #E0BE76;
+  height: auto;
+  width: 40%;
+  max-width: 300px;
+  border-radius: 50%;
 }
