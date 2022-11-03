@@ -1,66 +1,19 @@
-@media (min-width: 501px){
-  .SignUp-Page{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 15px;
-    margin: 10px;
-    grid-template-areas: 
-      "sign_up_banner sign_up_banner"
-      "sign_up_welcome sign_up_inputs-buttons"
-    ;
-    position: relative; top: 0; left: 0; bottom: 0; right:0;
-    min-width: 1100px;
-
-  }
-
-  .sign_up_banner{
-    grid-area: sign_up_banner;
-  }
-
-  .sign_up_welcome{
-    grid-area: sign_up_welcome;
-    margin-top: -200px;
-  }
-  
-  .sign_up_inputs-buttons{
-    grid-area: sign_up_inputs-buttons;
-    gap: 25px;
-    margin-top: 20px;
-  }
-}
-
-@media (max-width: 500px){
-  .SignUp-Page{
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 15px;
-    margin: 10px;
-    grid-template-areas: 
-      "sign_up_banner"
-      "sign_up_welcome"
-      "sign_up_inputs-buttons"
-    ;
-    position: relative; top: 0; left: 0; bottom: 0; right:0;
-  }
-}
-
-.sign_up_banner{
-  grid-area: sign_up_banner;
-  
-}
-
-.sign_up_welcome{
-  grid-area: sign_up_welcome;
+.sign-up-page{
   display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
 }
 
-.sign_up_inputs-buttons{
-  grid-area: sign_up_inputs-buttons;
-  display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.sign-up-page_banner{
+  margin-block: 30px;
+}
+
+.sign-up-page_icon{
+  width: 40%;
+  max-width: 200px;
+}
+
+.sign-up-page_inputs{
+  margin-block: 20px;
 }

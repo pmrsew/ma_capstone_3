@@ -44,7 +44,6 @@ export default function LoginPage(props) {
           placeholder="Username"
           onChange={(value) => setUsername(value)}
           required/>
-          <br/>
         <Text_Input_One labelClassName="password-label" name="Password" 
           id="password" type="password" inputClassName=""
           placeholder="Password" 
