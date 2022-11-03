@@ -1,29 +1,12 @@
-@media (min-width: 501px){
-    .Input_Body{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .text_input{
-        height: 40px;
-        width: 300px;
-        border-radius: 20px;
-    }
+.text-input-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-@media (max-width: 500px){
-    .Input_Body{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .text_input{
-        height: 40px;
-        width: 300px;
-        border-radius: 20px;
-    }
+.text-input-one_input {
+    height: 40px;
+    width: 300px;
+    border-radius: 20px;
 }
