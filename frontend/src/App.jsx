@@ -1,21 +1,15 @@
 import React from "react";
-/* no user pages */ import noUserRoutes from "./Pages/no-user-pages/no-user-routes";
-/* user pages */ import mainPages from "./Pages/UserPages/MainPage";
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-
-import OpeningPage from "./Pages/no-user-pages/opening-page/opening-page";
-
+import noUserRoutes from "./Pages/no-user-pages/no-user-routes";
+import userRoutes from "./Pages/user-pages/user-routes";
+import { BrowserRouter, Routes } from 'react-router-dom'
 
 export default function App() {
   return (
-
     <BrowserRouter className='app'>
       <Routes>
-        {mainPages}
         {noUserRoutes}
+        {userRoutes}
       </Routes>
-
-
     </BrowserRouter>
 
   );

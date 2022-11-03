@@ -1,11 +1,12 @@
-import React, { Fragment } from "react"
-import { Link, Routes, Route } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 
+/* navigation frame */
+import NavBar from '../../Components/Navigation.Component/NavigationBar'
+/* user-pages */
 import Dashbored from './DashBored/DashBored'
 import Pantry from './pantry/pantry'
 import Shopping_List from './shopping-list/shopping-List'
 import RecipeCard from "./recipe-card/recipe-card";
-import NavBar from '../../Components/Navigation.Component/NavigationBar'
 
 export default [
     <Route path="user-dash" element={<> <NavBar mainContent={<Dashbored />} /> </>} key='user-dash' />,
