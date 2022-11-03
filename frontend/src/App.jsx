@@ -1,7 +1,6 @@
 import React from "react";
 import { Link, Routes, Route } from "react-router-dom";
 /* access pages */ import Register_Routrs from "./Pages/Register_Pages/Register_Routrs";
-
 /* main pages */ import MainPages from "./Pages/MainPages/MainPage";
 
 /* redux imports*/

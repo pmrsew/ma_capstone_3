@@ -10,16 +10,15 @@ import Text_Banner from '../../../Components/Banner.Component/Text_Banner/Text_B
 
 export default function OpeningPage() {
   return (
-    <div className='Register_Page'>
-      <h1 className='Register_Banner'>
+    <div className='register-page'>
+      <h1 className='register-page_banner'>
         Meal Planner
       </h1>
 
-      <Brand_Image locationClassName='Register_page_Icon' />
+      <Brand_Image locationClassName='register-page_icon' />
+      <Text_Banner locationClassName='register-page_details' text='Welcome to CARPs Meal Planner app! Login if you have an existing account or sign-up for access.' />
 
-      <Text_Banner text='Welcome to CARPs Meal Planner app! Login if you have an existing account or sign-up for access.' />
-
-      <div className='Register_page_Buttons'>
+      <div className='register-page_buttons'>
         <Link to="/login">
           <Button_Style_One buttonName="Login" />
         </Link>

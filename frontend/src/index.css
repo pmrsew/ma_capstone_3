@@ -1,14 +1,4 @@
-/* css for pc */
-@media (min-width: 501px){
-  body{
+body{
     background-color: #105F63;
     margin:0;
-  }
-}
-/* css for phone app */
-@media (max-width: 500px){
-  body{ /* defualt*/
-    background-color: #105F63;
-    margin:0;
-  }
 }
