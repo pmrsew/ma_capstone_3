@@ -4,7 +4,7 @@ import './ButtonSelectItem.css'
 import Ingredient_Image from '../../../Images/ingredient_image_2.png'
 import PopUp from '../../popUp.Components/PopUp'
 /* Functional Javascript */
-import { deletePantryIngredient, editPantryIngredient } from '../../../Pages/MainPages/pantry/pantry-functions'
+import { deletePantryIngredient, editPantryIngredient } from '../../../Pages/UserPages/pantry/pantry-functions'
 
 export default function ButtonSelectItem(props) {
     const items = props.items;

@@ -1,32 +1,31 @@
-.register-page{
+.opening-page{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-items: center;
 }
-.register-page_banner{
+.opening-page_banner{
     background-color: #49B092;
     border-radius: 20px;
     padding: 40px;
     margin: 30px 0px;
     width: 80%;
 }
-.register-page_icon{
+.opening-page_icon{
     width: 40%;
     max-width: 200px;
 }
-.register-page_details{
+.opening-page_details{
     margin: 20px 0px;
     width: 80%;
 }
-.register-page_buttons{
-    grid-area: Register_page_Buttons;
+.opening-page_buttons{
     display: flex;
     flex-direction: column;
 }
 
 @media (min-width: 750px) {
-    .register-page{
+    .opening-page{
         display: grid;
         margin: 0px 40px;
         grid-template-columns: 1fr 1fr;
@@ -36,22 +35,22 @@
             "icon buttons"
         ;
     }
-    .register-page_banner{
+    .opening-page_banner{
         grid-area: banner;
         justify-self: stretch;
         width: auto;
     }
-    .register-page_icon{
+    .opening-page_icon{
         grid-area: icon;
         width: auto;
         max-width: 300px;
     }
-    .register-page_details{
+    .opening-page_details{
         grid-area: details;
         justify-self: stretch;
         width: auto;
     }
-    .register-page_buttons{
+    .opening-page_buttons{
         grid-area: buttons;
     }
 }

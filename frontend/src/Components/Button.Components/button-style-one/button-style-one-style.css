@@ -1,5 +1,4 @@
-.login-Button {
-  grid-area: login-Button;
+.button-style-one {
   background-color: #e0fff6;
   height: 50px;
   width: 200px;

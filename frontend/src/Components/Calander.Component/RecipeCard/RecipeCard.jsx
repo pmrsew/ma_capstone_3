@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import './RecipeCard.css'
 /* components */
 import PopUp from "../../popUp.Components/PopUp"
-import IngredientInformation from "../../../Pages/MainPages/recipe-card/ingredient-info"
+import IngredientInformation from "../../../Pages/UserPages/recipe-card/ingredient-info"
 
 export default function RecipeCardPart(props) {
     const recipeList = props.recipeList

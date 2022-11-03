@@ -1,7 +1,7 @@
 import React from "react";
-import './Text_Input_One.css'
+import './text-input-one-style.css'
 
-export default function Text_Input_One(props){
+export default function TextInputOne(props){
     const {labelClassName, name, type, id,  placeholder} = props;
     
     return(

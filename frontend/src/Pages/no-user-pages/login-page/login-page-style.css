@@ -1,19 +1,23 @@
-.sign-up-page{
+.login-page{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-items: center;
 }
 
-.sign-up-page_banner{
+.login-page_header{
   margin-block: 30px;
 }
 
-.sign-up-page_icon{
+.login-page_icon{
   width: 40%;
   max-width: 200px;
 }
 
-.sign-up-page_inputs{
+.login-page_inputs{
   margin-block: 20px;
+}
+
+.login-page_label{
+  color: #E0BE76;
 }
